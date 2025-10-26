@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografía de Valery Jiménez</title>
+  <style>
+    /* ======== ESTILO GENERAL ======== */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      padding: 3rem 1rem;
+      background: linear-gradient(90deg, #f06292, #ba68c8);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 3rem auto;
+      background: rgba(255, 255, 255, 0.97);
+      border-radius: 20px;
+      padding: 2rem 2.5rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* ======== SECCIONES ======== */
+    section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      gap: 2rem;
+      flex-wrap: wrap;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    section img {
+      width: 320px;
+      height: 190px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 3px solid #ba68c8;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.05);
+    }
+
+    section div {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h2 {
+      color: #ba68c8;
+      margin-top: 0;
+      position: relative;
+      font-size: 1.6rem;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #f06292;
+      margin-top: 5px;
+      border-radius: 2px;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.7;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      background: #ba68c8;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+    }
+
+    /* ======== RESPONSIVE ======== */
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      section img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+
+      h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Biografía de Valery Jiménez</h1>
+    <p>Soñadora 🌸 | Responsable 💪 | Amable 💖 | Dedicada 🎓</p>
+  </header>
+
+  <main>
+
+    <section id="presentacion">
+      <img src="amor2.jpeg" alt="Foto personal">
+      <div>
+        <h2>Sobre mí</h2>
+        <p>
+          Mi nombre es <strong>Valery Jiménez</strong>, nací el <strong>3 de abril de 2007</strong> en la ciudad de <strong>Barranquilla</strong>. 
+          Me considero una persona amorosa, amable, sociable, responsable y estudiosa. 
+          Me caracterizo por ser alguien que lucha incansablemente por sus sueños y trabaja con dedicación para alcanzar cada una de sus metas.
+        </p>
+      </div>
+    </section>
+
+    <section id="familia">
+      <img src="familia.jpg" alt="Familia">
+      <div>
+        <h2>Mi familia</h2>
+        <p>
+          Actualmente resido en el municipio de <strong>Soledad</strong>,mi dirrecion es <strong>TV 1A1 DG72-27</strong>, junto a mi madre, mis hermanos y mis abuelos, 
+          quienes son un pilar esencial en mi vida y me brindan todo su amor y apoyo incondicional. 
+          Mi madre ha sido mi mayor ejemplo de fortaleza, entrega y constancia; es la persona que me inspira a seguir adelante cada día. 
+          También cuento con el cariño y respaldo de mi padre, quien, junto con mi madre, representa una pieza fundamental en mi camino, 
+          guiándome con amor, consejos y motivación para alcanzar cada uno de mis propósitos.
+        </p>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <img src="formacion.jpg" alt="Educación y estudios">
+      <div>
+        <h2>Formación académica</h2>
+        <p>
+          En la actualidad me encuentro culminando mis estudios de <strong>educación media</strong>, cursando el grado <strong>11°</strong>, 
+          con metas firmes y una visión clara de mi futuro. 
+          Mi vocación por la <strong>contaduría pública</strong> surgió cuando cursaba el grado noveno, 
+          al ingresar a una corporación donde realicé un técnico en <strong>auxiliar contable</strong>. 
+          Hoy en día soy técnica en esa área, lo que despertó en mí el deseo de seguir creciendo profesionalmente 
+          y continuar preparándome para ser una gran contadora pública.
+        </p>
+      </div>
+    </section>
+
+    <section id="metas">
+      <img src="amor4.jpeg" alt="Metas y sueños">
+      <div>
+        <h2>Metas y sueños</h2>
+        <p>
+          Aspiro a convertirme en una <strong>profesional exitosa</strong>, reconocida por mi compromiso, responsabilidad y ética en todo lo que hago. 
+          Sueño con seguir superándome personal y profesionalmente, alcanzar cada uno de mis objetivos 
+          y brindarle a mi familia la satisfacción de ver reflejado en mí todo su esfuerzo, amor y sacrificio.
+        </p>
+      </div>
+    </section>
+
+    <section id="motivacion">
+      <img src="motivacion.jpg" alt="Motivación personal">
+      <div>
+        <h2>Mi motivación</h2>
+        <p>
+          Estoy convencida de que con <strong>disciplina, perseverancia y pasión</strong> por lo que hago, 
+          lograré cumplir todos los sueños que me proponga y construir un futuro lleno de orgullo y gratitud 
+          para mí y para los míos.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2025 Valery Jiménez — Todos los derechos reservados 💖
+  </footer>
+
+</body>
+</html>
+
+
